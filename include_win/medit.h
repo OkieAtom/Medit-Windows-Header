@@ -188,7 +188,7 @@ inline void GetFromConsole(char* buffer, int size)
     buffer[read] = '\0';
 }
 
-inline bool StringToInteger(const char* text)
+inline bool IsInteger(const char* text)
 {
     int i = 0;
 
