@@ -2,6 +2,7 @@
 
 int main()
 {
+    EnableEscapeCodes();
     char name[256];
 
     PrintToConsole("Name: ");
